@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+    <head>
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/style.css">
+        <title>ShelterSpace</title>
+    </head>
+
+    <body id="home">
+      <!-- NAVBAR SECTION-->
+        <nav class="navbar navbar-expand-sm bg-white navbar-light fixed-top">
+          <a href="index.html" class="navbar-brand">
+            <img src="../assets/ss_newlogo_text.png" height="75" class="d-inline-block align-top"></a>
+          <div class="container">
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                  <a href="index.html" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a href="#explore-head-section" class="nav-link">Explore</a>
+                </li>
+                <li class="nav-item">
+                  <a href="beds_available.html" class="nav-link">Create</a>
+                </li>
+                <li class="nav-item">
+                  <a href="login.html" class="nav-link">Login</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+
+        <!-- HOME SECTION -->
+        <!-- USE .form-inline  -->
+        <header id="facility-section">
+      <div class="home-inner center_beds">
+      <div class="container-fluid">
+      <div class="row text-center">
+      <div class="mx-auto">
+        <div class="input-group">
+          <span class="col-lg-3 input-group-btn">
+            <span class="input-group-btn button-margin">
+             <button type="button" class="btn btn-default btn-number" disabled="disabled" data-type="minus" data-field="quant[1]">
+                 <i class="fa fa-minus"></i>
+               </button>
+               </span>
+             </span>
+             <div class="col-lg-6">
+               <input class="input-circle form-control-lg input-number" type="text" name="quant[1]" style="font-size: 65px;" class="form-control input-number" value="1" min="1" max="20">
+             </div>
+               <span class="col-lg-3 input-group-btn button-margin">
+             <button type="button" class="btn btn-default btn-number" data-type="plus" data-field="quant[1]">
+               <i class="fa fa-plus"></i>
+               </button>
+             </span>
+             </div>
+           </div>
+         </div>
+        <div class="text-center mx-auto">
+        <label class="h3 label-text" style="padding-right: 55px; padding-top: 15px;">Beds Available</label>
+        <hr class="style1">
+        <div class="label-subtext">
+        <h4 class="text-nowrap" style="line-height: 90%"> Homeless Guests: <strong>4</strong> / Capacity: 20 </h4>
+        <h4 class="no-margin-top" style="line-height: 120%"> Diamond Youth Shelter </h4>
+        <h6 class="small"> last updated </h6>
+      </h4>
+      </div>
+    </div>
+        <div class="col-lg-1 mx-auto text-center" style="padding-top: 30px;">
+          <button type="button" class="btn btn-primary btn-lg">Submit</button>
+        </div>
+        </header>
+
+
+        <!-- FOOTER  -->
+        <footer class="modal-body">
+        </footer>
+      </div>
+    </div>
+
+        <script src="js/jquery.min.js"></script>
+        <script src="js/popper.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/beds_available.js"></script>
+    </body>
+</html>
