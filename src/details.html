@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+    <head>
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/style.css">
+        <title>ShelterSpace</title>
+    </head>
+
+    <body id="home">
+      <!-- NAVBAR SECTION-->
+        <nav class="navbar navbar-expand-sm bg-white navbar-light fixed-top">
+          <a href="index.html" class="navbar-brand">
+            <img src="../assets/ss_newlogo_text.png" height="75" class="d-inline-block align-top"></a>
+          <div class="container">
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                  <a href="index.html" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a href="facility.html" class="nav-link">Explore</a>
+                </li>
+                <li class="nav-item">
+                  <a href="beds_available.html" class="nav-link">Create</a>
+                </li>
+                <li class="nav-item">
+                  <a href="login.html" class="nav-link">Login</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+
+        <!-- HOME SECTION -->
+        <!-- USE .form-inline  -->
+        <header id="facility-section">
+          <div class="home-inner">
+          <div class="container" style="color: grey;">
+
+            <!--FIRST ROW-->
+            <div class="row">
+              <!--SHELTER NAME & ADDRESS -->
+              <div class="col-lg-5">
+                <h1>Diamond Youth Shelter</h1>
+                <h6>Larkin Street Youth Services </h6>
+                <h6>536 Central Avenue</h6>
+                <h6>San Francisco, CA 94117</h6>
+              </div>
+
+              <!--SHELTER IMAGE-->
+              <div class="col-lg-4">
+                <img class="img-fluid" src="//placehold.it/500x200" alt="">
+              </div>
+
+              <!--AVAILABLE BEDS-->
+              <div class="col-lg-3 text-center" style="">
+                <div class="details-circle mx-auto" style="text-align: center; padding-top: 40px;">
+                 20
+                </div>
+                <h6 style="padding-top: 10px;">Available Beds</h6>
+                <small style="line-height: 0px;">Last Updated</small>
+              </div>
+
+              <!--END ROW-->
+            </div>
+
+            <!--SECOND ROW-->
+            <div class="row" style="margin-top: 10px; margin-bottom: 10px;">
+
+              <!--SHELTER PHONE NUMBER & ADDITIONAL DETAILS-->
+              <div class="col-lg-5">
+                <h1><a href="tel:{{number}}">(800) 669-6196</a></h1>
+                <h6> Shelter Type: Runaway Youth</h6>
+                <h6>Additional Notes:</h6>
+                <h6>Open 24 hours a day</h6>
+              </div>
+
+              <!--MAP-->
+              <div class="col-lg-4">
+                <!--INSERT MAP CODE HERE-->
+                <h2>Map</h2>
+                <img class="img-fluid" src="//placehold.it/500x200" alt="">
+              </div>
+              <!--END ROW-->
+            </div>
+
+            <!--CLOSING TAGS-->
+          </div>
+        </div>
+        </header>
+
+        <script src="js/jquery.min.js"></script>
+        <script src="js/popper.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/plus-minus.js"></script>
+        <script src="js/beds_ava.js"></script>
+    </body>
+</html>
