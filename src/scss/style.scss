@@ -1,18 +1,26 @@
 // Main Sass File
-$font-color: #fff      ;
+$font-color: #fff;
+$brand-color: #148090;
 $nav-color: #6B7B82;
 $primary-color: #008ed6;
 $dark-overlay:rgba(0,0,0,0.7);
 $icon-size: 30px;
 
+.brand-color {
+  color: $brand-color;
+}
 
 body{
   color: $font-color;
     .navbar{
-      // border-bottom: $primary-color 3px solid;
+      // border-bottom: $brand-color 3px solid;
       // opacity: 0.8;
     }
 
+}
+
+footer {
+  // border-top: $brand-color 3px solid;
 }
 
 #login-section{
@@ -27,7 +35,7 @@ body{
 
 #facility-section{
   background:url("../assets/background.jpeg") no-repeat;
-  min-height: 850px;
+  min-height: 900px;
   background-size: cover;
   background-attachment: fixed;
   .home-inner{
@@ -53,7 +61,7 @@ body{
 
 #home-section{
   background:url("../assets/blue.jpeg") no-repeat;
-  min-height: 700px;
+  min-height: 900px;
   background-size: cover;
   background-attachment: fixed;
 
@@ -175,4 +183,29 @@ height: 800px;
   font-size: auto;
   line-height: 1.42;
   border-radius: 90px;
+}
+
+// Bed Availability for Details Page
+.details-circle {
+  background-color: #058091;
+  color: $font-color;
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  padding: 6px 0;
+  font-size: auto;
+  line-height: 1.42;
+  border-radius: 90px;
+}
+a {
+  color: $brand-color;
+
+}
+
+a:hover {
+  color: $brand-color;
+}
+
+.side-bar {
+  float: right;
 }
