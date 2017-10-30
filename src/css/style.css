@@ -1,3 +1,6 @@
+.brand-color {
+  color: #148090; }
+
 body {
   color: #fff; }
 
@@ -11,7 +14,7 @@ body {
 
 #facility-section {
   background: url("../assets/background.jpeg") no-repeat;
-  min-height: 850px;
+  min-height: 900px;
   background-size: cover;
   background-attachment: fixed; }
   #facility-section .home-inner {
@@ -29,7 +32,7 @@ body {
 
 #home-section {
   background: url("../assets/blue.jpeg") no-repeat;
-  min-height: 700px;
+  min-height: 900px;
   background-size: cover;
   background-attachment: fixed; }
   #home-section .home-inner {
@@ -123,3 +126,23 @@ body {
   font-size: auto;
   line-height: 1.42;
   border-radius: 90px; }
+
+.details-circle {
+  background-color: #058091;
+  color: #fff;
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  padding: 6px 0;
+  font-size: auto;
+  line-height: 1.42;
+  border-radius: 90px; }
+
+a {
+  color: #148090; }
+
+a:hover {
+  color: #148090; }
+
+.side-bar {
+  float: right; }
