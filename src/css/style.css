@@ -11,6 +11,29 @@ body {
   background-attachment: fixed; }
   #login-section .home-inner {
     padding-top: 200px; }
+  #login-section .label-subtext {
+    color: #7f8483; }
+
+#signup-section {
+  background: url("../assets/blue.jpeg") no-repeat center fixed;
+  min-height: 850px;
+  background-size: cover;
+  background-attachment: fixed; }
+  #signup-section .home-inner {
+    padding-top: 200px; }
+  #signup-section .label-subtext {
+    color: #7f8483; }
+  #signup-section .phone-number .col-xs-3::after {
+    content: "-";
+    position: absolute;
+    right: 5px;
+    color: black;
+    border: 0px solid;
+    top: 5px; }
+  #signup-section .phone-number .col-xs-4 {
+    width: 25%; }
+  #signup-section .phone-number .col-xs-3, #signup-section .phone-number .col-xs-4 {
+    padding-left: 0; }
 
 #facility-section {
   background: url("../assets/background.jpeg") no-repeat;
