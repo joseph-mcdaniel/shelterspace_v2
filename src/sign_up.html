@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+    <head>
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/style.css">
+        <title>ShelterSpace</title>
+    </head>
+
+    <body id="home">
+      <!-- NAVBAR SECTION-->
+        <nav class="navbar navbar-expand-sm bg-white navbar-light fixed-top">
+          <a href="index.html" class="navbar-brand">
+            <img src="../assets/ss_newlogo_text.png" height="75" class="d-inline-block align-top"></a>
+          <div class="container">
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                  <a href="index.html" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a href="facility.html" class="nav-link">Explore</a>
+                </li>
+                <li class="nav-item">
+                  <a href="beds_available.html" class="nav-link">Shelters</a>
+                </li>
+                <li class="nav-item">
+                  <a href="sign_up.html" class="nav-link">Create</a>
+                </li>
+                <li class="nav-item">
+                  <a href="login.html" class="nav-link">Login</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+
+        <!-- HOME SECTION -->
+        <!-- USE .form-inline  -->
+        <header id="signup-section">
+        <div class="home-inner">
+          <div class="container">
+            <div class="container py-3">
+              <!--FIRST ROW-->
+                <div class="row">
+                    <div class="col-md-6 col-lg-4 mx-auto">
+                      <!--BEGIN CARD-->
+                            <div class="card card-body">
+                                <h3 class="text-center mb-4 label-subtext">Register a Shelter</h3>
+                                <!--BEGIN FIELDSET-->
+                                <form>
+                                  <div class="form-group">
+                                      <input class="form-control input-lg" placeholder="First Name" name="first_name" type="text">
+                                  </div>
+                                  <div class="form-group">
+                                        <input class="form-control input-lg" placeholder="Last Name" name="last_name" type="text">
+                                    </div>
+
+                                    <div class="form-group">
+                                      <div class="input-group mb-2 mr-sm-2 mb-sm-0">
+                                          <div class="input-group-addon" style="width: 2.8rem"><i class="material-icons">&#xE0BE;</i></div>
+                                          <input type="text" name="email" class="form-control" id="email"
+                                                 placeholder="you@example.com" required autofocus>
+                                      </div>
+                                      </div>
+
+                                    <div class="form-group">
+                                      <div class="input-group mb-2 mr-sm-2 mb-sm-0">
+                                          <span class="input-group-addon" style="width: 2.6rem;"><i class="material-icons">&#xE0CF;</i></span>
+                                          <input class="form-control" placeholder="Phone Number"  type="text" name="phone"  id="email"
+                                                 required autofocus>
+                                      </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <input class="form-control input-lg" placeholder="Shelter Name" name="shelter" type="text">
+                                    </div>
+                                    <div class="form-group has-success">
+                                        <input class="form-control input-lg" placeholder="Password" name="password" value="" type="password">
+                                    </div>
+                                    <div class="form-group has-success">
+                                        <input class="form-control input-lg" placeholder="Confirm Password" name="password" value="" type="password">
+                                    </div>
+
+                                    <div class="checkbox">
+                                        <label class="small label-subtext">
+                                            <input name="terms" type="checkbox"> I have read and agree to the <a href="#">terms of service</a>
+                                        </label>
+                                    </div>
+                                    <input class="btn btn-lg btn-primary btn-block" value="Register" type="submit">
+                                </form>
+                            </div>
+                    </div>
+                </div>
+            </div>
+
+
+   </div>
+</div>
+
+
+        </header>
+
+        <script src="js/jquery.min.js"></script>
+        <script src="js/popper.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/plus-minus.js"></script>
+    </body>
+</html>
