@@ -1,7 +1,7 @@
 {
-  "name": "bootstrap4_env",
-  "version": "1.1",
-  "description": "Bootstrap 4 test environment",
+  "name": "shelterspace",
+  "version": "1.1.0",
+  "description": "shelterspace front end",
   "main": "index.js",
   "scripts": {
     "start": "gulp"
